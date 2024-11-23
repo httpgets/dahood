@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zesty-codes/Freezy/refs/heads/main/Old.lua"))()
