@@ -1,0 +1,3 @@
+if N.Enabled and N.BindEnabled and N.GrenadeTeleport and k[2][k[1]].Character and Y:FindFirstChild("Ignored") and Y.Ignored:FindFirstChild("Handle") then
+Y.Ignored.Handle.Position = k[2][k[1]].Character[N.RealHitPart].Position + Vector3.new(0, N.TpHeight + N.RealJumpOffset, 0) + (N.Resolver and Z[2][Z[1]] or k[2][k[1]].Character[N.RealHitPart].AssemblyLinearVelocity) * Vector3.new(N.RealPrediction.X * 2.5, 0, N.RealPrediction.X * 2.5);
+end;
